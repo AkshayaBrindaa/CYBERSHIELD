@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield | Cybersecurity Assessment</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            🛡️ CyberShield
+        </div>
+
+        <p>Personal Cybersecurity Assessment</p>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>How secure are your<br>digital habits?</h1>
+
+            <p>
+                Take a quick cybersecurity assessment
+                and discover how protected you are online.
+            </p>
+
+            <button onclick="startAssessment()">
+               Start Assessment →
+            </button>
+        </section>
+<section class="assessment" id="assessment">
+
+    <h2>Cybersecurity Assessment</h2>
+
+    <p>Answer these questions honestly to understand your online security habits.</p>
+
+    <div class="question">
+        <h3>1. Do you use the same password for multiple accounts?</h3>
+
+        <label>
+            <input type="radio" name="q1" value="yes">
+            Yes
+        </label>
+
+        <label>
+            <input type="radio" name="q1" value="no">
+            No
+        </label>
+    </div>
+
+    <div class="question">
+        <h3>2. Do you use Two-Factor Authentication (2FA)?</h3>
+
+        <label>
+            <input type="radio" name="q2" value="yes">
+            Yes
+        </label>
+
+        <label>
+            <input type="radio" name="q2" value="no">
+            No
+        </label>
+    </div>
+
+    <div class="question">
+        <h3>3. Do you regularly click links from unknown messages or emails?</h3>
+
+        <label>
+            <input type="radio" name="q3" value="yes">
+            Yes
+        </label>
+
+        <label>
+            <input type="radio" name="q3" value="no">
+            No
+        </label>
+    </div>
+
+    <div class="question">
+        <h3>4. Do you use public Wi-Fi without a VPN?</h3>
+
+        <label>
+            <input type="radio" name="q4" value="yes">
+            Yes
+        </label>
+
+        <label>
+            <input type="radio" name="q4" value="no">
+            No
+        </label>
+    </div>
+
+    <div class="question">
+        <h3>5. Do you regularly update your operating system and apps?</h3>
+
+        <label>
+            <input type="radio" name="q5" value="yes">
+            Yes
+        </label>
+
+        <label>
+            <input type="radio" name="q5" value="no">
+            No
+        </label>
+    </div>
+
+    <button onclick="calculateRisk()">
+        Calculate My Risk
+    </button>
+
+    <div id="result"></div>
+
+</section>
+        <section class="features">
+
+            <div class="feature-card">
+                <span>🔐</span>
+                <h3>Password Security</h3>
+                <p>Understand how strong your password habits are.</p>
+            </div>
+
+            <div class="feature-card">
+                <span>🛡️</span>
+                <h3>Online Safety</h3>
+                <p>Identify risky digital habits and behaviours.</p>
+            </div>
+
+            <div class="feature-card">
+                <span>📊</span>
+                <h3>Risk Assessment</h3>
+                <p>Get a personalized cybersecurity risk score.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 CyberShield | Stay Aware. Stay Secure.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
